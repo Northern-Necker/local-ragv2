@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project-specific
+vector_store/
+models/
+logs/
+test_docs/
+test_output/
+test_logs/
+
+# Azure credentials
+azure_credentials.json
+
+# ChromaDB
+.chroma/
+*.sqlite3
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.bin
+*.h5
+
+# Large data files
+*.pdf
+*.docx
+*.xlsx
+*.csv
+*.json
+!package.json
+!tsconfig.json
+
+# Docker volumes
+docker/data/
+
+# Exceptions
+!requirements.txt
+!setup.py
+!pytest.ini
+!.env.example
